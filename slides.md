@@ -88,6 +88,48 @@ layout: two-cols
 layout: two-cols
 ---
 
+# Top Line Express - 2004-2006
+
+<div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
+  <div class="text-4xl opacity-20">
+    <carbon:delivery-truck />
+    <span class="block text-sm mt-2">Top Line Express Photo</span>
+  </div>
+</div>
+
+::right::
+
+<div class="ml-4 space-y-4">
+
+<v-click>
+  <div class="p-4 border-l-4 border-blue-500 bg-blue-500/10">
+    <h3 class="text-lg font-bold">Key Accomplishments</h3>
+    <ul class="list-disc pl-4 text-sm opacity-80">
+      <li>First "Real" Job</li>
+      <li>Learned the value of a dollar</li>
+      <li>Tranformed entire IT Infrastructure.</li>
+      <li>Learned a little about everything</li>
+    </ul>
+  </div>
+</v-click>
+
+<v-click>
+  <div class="p-4 border-l-4 border-green-500 bg-green-500/10">
+    <h3 class="text-lg font-bold">Key Lessons Learned</h3>
+    <ul class="list-disc pl-4 text-sm opacity-80">
+      <li>What i DIDNT want to spend the rest of my life doing.</li>
+      <li>Micromanagement is a disease.</li>
+      <li>When Everything is Top Urgent, Nothing is Top Urgent.</li>
+    </ul>
+  </div>
+</v-click>
+
+</div>
+
+---
+layout: two-cols
+---
+
 # JPMorganChase - 2006-2023
 
 <div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
@@ -107,7 +149,9 @@ layout: two-cols
     <ul class="list-disc pl-4 text-sm opacity-80">
       <li>20+ Patent Filings</li>
       <li>Expert Engineer / Prolific Inventor</li>
+      <li>Ran Billion Dollar+ Infrastructure Programs</li>
       <li>New Hire Orientation</li>
+      <li>Leadership Engineering Advancement Program</li>
     </ul>
   </div>
 </v-click>
@@ -148,6 +192,7 @@ layout: two-cols
       <li>Run Global Expert Engineer Programme</li>
       <li>Lead Technical Enablement Workshops</li>
       <li>Drive Engineering Moderisation</li>
+      <li>Drive AI Adoption</li>
     </ul>
   </div>
 </v-click>
@@ -163,6 +208,27 @@ layout: two-cols
   </div>
 </v-click>
 </div>
+
+---
+layout: center
+class: text-center
+---
+
+# Why the heck am I here?
+
+<v-click>
+
+### Because I wish someone told me what I'm about to tell you.
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-xl opacity-80">
+  I made every mistake in the book so you don't have to. Plus I ran into Heather after 20 years.
+</div>
+
+</v-click>
 
 ---
 layout: center
@@ -185,23 +251,35 @@ class: text-center
 
 ---
 
-# Lesson 1: The Open Book Exam
+# Lesson 1: Static vs Growth Mindset
 
-In school, looking up the answer is cheating. In the real world, it's resourceful.
+### "I'm not good at this" vs "I'm not good at this *YET*"
 
 <div class="grid grid-cols-2 gap-4 mt-8">
 
 <v-click>
 
-### Academic Mode
-"Memorize the syntax. Solitary confinement. No external tools."
+<div class="p-4 border-l-4 border-red-500 bg-red-500/10">
+  <h3 class="text-lg font-bold">Static Mindset</h3>
+  <ul class="list-disc pl-4 text-sm opacity-80 space-y-2 mt-2">
+    <li>"I'll look dumb if I ask."</li>
+    <li>"Feedback is a personal attack."</li>
+    <li>"I stick to what I know."</li>
+  </ul>
+</div>
 
 </v-click>
 
 <v-click>
 
-### Career Mode
-"Google it. Chat with AI. Read the docs. Ask a senior."
+<div class="p-4 border-l-4 border-green-500 bg-green-500/10">
+  <h3 class="text-lg font-bold">Growth Mindset</h3>
+  <ul class="list-disc pl-4 text-sm opacity-80 space-y-2 mt-2">
+    <li>"Asking questions makes me smarter."</li>
+    <li>"Feedback is how I improve."</li>
+    <li>"Challenges help me grow."</li>
+  </ul>
+</div>
 
 </v-click>
 
@@ -209,9 +287,11 @@ In school, looking up the answer is cheating. In the real world, it's resourcefu
 
 <v-click>
 
-<div class="mt-12 p-4 border-l-4 border-green-500 bg-green-500/10">
-  <h2 class="!m-0">The Skill: Resourcefulness</h2>
-  <p class="opacity-70">Knowing *how* to find the answer is more valuable than knowing the answer.</p>
+<div class="mt-12 text-center">
+  <p class="text-xl font-light italic">
+    "The passion for stretching yourself and sticking to it, even (or especially) when it’s not going well, is the hallmark of the growth mindset."
+  </p>
+  <p class="text-sm opacity-50 mt-2">— Carol Dweck</p>
 </div>
 
 </v-click>
@@ -281,7 +361,7 @@ image: https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&
   </div>
 
   <div class="p-4 bg-blue-500/10 border-l-4 border-blue-500 rounded-r">
-    <h3 class="text-lg font-bold !m-0">The Developer Mindset</h3>
+    <h3 class="text-lg font-bold !m-0">Embracing Failure</h3>
     <p class="opacity-75 text-sm">Code never works the first time. Errors tell you what to fix.<br>You are constantly in beta.</p>
   </div>
 
@@ -365,7 +445,7 @@ image: https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&
     <ul class="list-disc pl-4 text-sm opacity-75 space-y-1">
       <li>Stop Watching and Start Doing</li>
       <li>Every Rep Matters</li>
-      <li>BuildMuscle Memory</li>
+      <li>Build Muscle Memory</li>
     </ul>
   </div>
 
