@@ -76,6 +76,7 @@ layout: two-cols
     <h3 class="text-lg font-bold">Key Lessons Learned</h3>
     <ul class="list-disc pl-4 text-sm opacity-80">
       <li>Hard work beats raw talent.</li>
+      <li>Habits (Good or Bad) Compound.</li>
       <li>You can reinvent yourself.</li>
       <li>Nobody wins at Jager-Pong</li>
     </ul>
@@ -161,6 +162,7 @@ layout: two-cols
     <h3 class="text-lg font-bold">Key Lessons Learned</h3>
     <ul class="list-disc pl-4 text-sm opacity-80">
       <li>You are the manager of your own career.</li>
+      <li>Be the Doctor, not the Waiter.</li>
       <li>Networking pays off</li>
       <li>Get involved - Give Back</li>
     </ul>
@@ -191,8 +193,8 @@ layout: two-cols
     <ul class="list-disc pl-4 text-sm opacity-80">
       <li>Run Global Expert Engineer Programme</li>
       <li>Lead Technical Enablement Workshops</li>
-      <li>Drive Engineering Moderisation</li>
-      <li>Drive AI Adoption</li>
+      <li>Drive Engineering Modernisation</li>
+      <li>Drive AI Adoption for 20k+ Engineers</li>
     </ul>
   </div>
 </v-click>
@@ -362,7 +364,7 @@ image: https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&
 
   <div class="p-4 bg-blue-500/10 border-l-4 border-blue-500 rounded-r">
     <h3 class="text-lg font-bold !m-0">Embracing Failure</h3>
-    <p class="opacity-75 text-sm">Code never works the first time. Errors tell you what to fix.<br>You are constantly in beta.</p>
+    <p class="opacity-75 text-sm">Code never works the first time. Errors tell you what to fix.<br>You are constantly in beta - Use a feedback loop</p>
   </div>
 
 </div>
@@ -444,7 +446,7 @@ image: https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&
     <h3 class="font-bold mb-2">The Learning Approach Remains</h3>
     <ul class="list-disc pl-4 text-sm opacity-75 space-y-1">
       <li>Stop Watching and Start Doing</li>
-      <li>Every Rep Matters</li>
+      <li>Consistency > Intensity</li>
       <li>Build Muscle Memory</li>
     </ul>
   </div>
