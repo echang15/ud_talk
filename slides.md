@@ -46,19 +46,36 @@ class: text-center
 UD Alumni. Dad, Husband, Geek.
 
 </v-click>
+<v-click>
 
 <div class="grid grid-cols-2 gap-4 mt-8 h-80 w-full">
-  <PrivatePhoto src="/private/eric_ud.jpg" />
+  <PrivatePhoto src="/private/eric_mirror.jpg" />
   <PrivatePhoto src="/private/eric_ud2.jpg" />
   <PrivatePhoto src="/private/eric_ud3.jpg" />
   <PrivatePhoto src="/private/eric_ud4.jpg" />
+</div>
+</v-click>
+
+---
+layout: center
+---
+
+# Agenda
+
+<div class="mt-12 w-max mx-auto">
+  <v-clicks class="space-y-6 text-2xl text-left list-decimal">
+    <li>This will not last 80 minutes</li>
+    <li>I am interactive. Raise hands and ask questions!</li>
+    <li>How I got here</li>
+    <li>Lessons learned</li>
+  </v-clicks>
 </div>
 
 ---
 layout: two-cols
 ---
 
-# College Life
+# College Life (2000 - 2004)
 
 <div class="grid grid-cols-2 grid-rows-2 gap-3 mt-4 h-[420px] w-full">
   <div class="h-full">
@@ -90,6 +107,7 @@ layout: two-cols
   <div class="p-4 border-l-4 border-blue-500 bg-blue-500/10">
     <h3 class="text-lg font-bold">Key Accomplishments</h3>
     <ul class="list-disc pl-4 text-sm opacity-80">
+      <li>Sponsored Video Gamer - 50 bucks a month!</li>
       <li>Barely passed Discrete Math</li>
       <li>Threw a printer from 3rd floor of Cannon Hall</li>
       <li>Slept Thru Graduation</li>
@@ -115,21 +133,32 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Top Line Express - 2004-2006
+# Top Line Express (2004-2006)
 
 <!--
 "I didn't start at Google or Facebook. I started in logistics. It taught me that tech isn't just about code; it's about solving business problems. If the trucks don't move, nobody gets paid. That pressure taught me more than any coding bootcamp."
 -->
 
-<div class="h-[400px] w-full mt-4">
-  <PrivatePhoto src="/private/top_line.jpg">
-    <div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
-      <div class="text-4xl opacity-20">
-        <carbon:delivery-truck />
-        <span class="block text-sm mt-2">Top Line Express Photo</span>
+<div class="grid grid-cols-2 grid-rows-2 gap-3 mt-4 h-[420px] w-full">
+  <div class="h-full">
+    <PrivatePhoto src="/private/top_line.jpg">
+      <div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
+        <div class="text-4xl opacity-20">
+          <carbon:delivery-truck />
+          <span class="block text-sm mt-2">Top Line Express Photo</span>
+        </div>
       </div>
-    </div>
-  </PrivatePhoto>
+    </PrivatePhoto>
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_topline2.jpg" />
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_topline3.jpg" />
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_topline4.jpg" />
+  </div>
 </div>
 
 ::right::
@@ -165,7 +194,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-# JPMorganChase - 2006-2023
+# JPMorganChase (2006-2023)
 
 <!--
 "Spending 17 years at one place is rare now. Why did I stay? Because I could reinvent myself every 2-3 years without leaving the building. Intrapreneurship is a safe way to be an entrepreneur."
@@ -227,7 +256,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Barclays - 2023-Present
+# Barclays (2023-Present)
 
 <div class="grid grid-cols-2 grid-rows-2 gap-3 mt-4 h-[420px] w-full">
   <div class="h-full">
@@ -271,6 +300,7 @@ layout: two-cols
   <div class="p-4 border-l-4 border-green-500 bg-green-500/10">
     <h3 class="text-lg font-bold">Key Lessons Learned</h3>
     <ul class="list-disc pl-4 text-sm opacity-80">
+      <li>English and <i>The Queen's English</i> are not the same.</li>
       <li>Be the Change you want to see.</li>
       <li>Ask for help.</li>
       <li>Ask "Why?"</li>
