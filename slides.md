@@ -15,6 +15,10 @@ title: The Unwritten Syllabus
 
 # The Unwritten Syllabus
 
+<!--
+"In college, you know exactly what to do to get an A. You have a rubric. In your career, there is no rubric. You can do everything 'right' and still fail, or do one thing differently and succeed massively. This talk is about writing your own rubric."
+-->
+
 Things they don't teach you in the lecture hall.
 
 <div class="pt-12">
@@ -43,16 +47,38 @@ UD Alumni. Dad, Husband, Geek.
 
 </v-click>
 
+<div class="grid grid-cols-2 gap-4 mt-8 h-80 w-full">
+  <PrivatePhoto src="/private/eric_ud.jpg" />
+  <PrivatePhoto src="/private/eric_ud2.jpg" />
+  <PrivatePhoto src="/private/eric_ud3.jpg" />
+  <PrivatePhoto src="/private/eric_ud4.jpg" />
+</div>
+
 ---
 layout: two-cols
 ---
 
 # College Life
 
-<div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
-  <div class="text-4xl opacity-20">
-    <carbon:image />
-    <span class="block text-sm mt-2">Photo Placeholder</span>
+<div class="grid grid-cols-2 grid-rows-2 gap-3 mt-4 h-[420px] w-full">
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_college1.jpg">
+      <div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
+        <div class="text-4xl opacity-20">
+          <carbon:image />
+          <span class="block text-sm mt-2">Photo Placeholder</span>
+        </div>
+      </div>
+    </PrivatePhoto>
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_college2.jpg" />
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_college3.jpg" />
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_college4.jpg" />
   </div>
 </div>
 
@@ -91,11 +117,19 @@ layout: two-cols
 
 # Top Line Express - 2004-2006
 
-<div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
-  <div class="text-4xl opacity-20">
-    <carbon:delivery-truck />
-    <span class="block text-sm mt-2">Top Line Express Photo</span>
-  </div>
+<!--
+"I didn't start at Google or Facebook. I started in logistics. It taught me that tech isn't just about code; it's about solving business problems. If the trucks don't move, nobody gets paid. That pressure taught me more than any coding bootcamp."
+-->
+
+<div class="h-[400px] w-full mt-4">
+  <PrivatePhoto src="/private/top_line.jpg">
+    <div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
+      <div class="text-4xl opacity-20">
+        <carbon:delivery-truck />
+        <span class="block text-sm mt-2">Top Line Express Photo</span>
+      </div>
+    </div>
+  </PrivatePhoto>
 </div>
 
 ::right::
@@ -133,10 +167,29 @@ layout: two-cols
 
 # JPMorganChase - 2006-2023
 
-<div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
-  <div class="text-4xl opacity-20">
-    <carbon:building />
-    <span class="block text-sm mt-2">JPMC Office Photo</span>
+<!--
+"Spending 17 years at one place is rare now. Why did I stay? Because I could reinvent myself every 2-3 years without leaving the building. Intrapreneurship is a safe way to be an entrepreneur."
+-->
+
+<div class="grid grid-cols-2 grid-rows-2 gap-3 mt-4 h-[420px] w-full">
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_patents.jpg">
+      <div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
+        <div class="text-4xl opacity-20">
+          <carbon:building />
+          <span class="block text-sm mt-2">JPMC Office Photo</span>
+        </div>
+      </div>
+    </PrivatePhoto>
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_leap.jpg" />
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_cfg.jpg" />
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_inventor.jpg" />
   </div>
 </div>
 
@@ -174,12 +227,27 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Barclays
+# Barclays - 2023-Present
 
-<div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
-  <div class="text-4xl opacity-20">
-    <carbon:building-insights-3 />
-    <span class="block text-sm mt-2">Barclays Photo</span>
+<div class="grid grid-cols-2 grid-rows-2 gap-3 mt-4 h-[420px] w-full">
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_india.jpg">
+      <div class="h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-lg">
+        <div class="text-4xl opacity-20">
+          <carbon:building-insights-3 />
+          <span class="block text-sm mt-2">Barclays Photo</span>
+        </div>
+      </div>
+    </PrivatePhoto>
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_ai_talk.jpg" />
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_craig.jpg" />
+  </div>
+  <div class="h-full">
+    <PrivatePhoto src="/private/eric_mod1.jpg" />
   </div>
 </div>
 
@@ -254,6 +322,10 @@ class: text-center
 ---
 
 # Lesson 1: Static vs Growth Mindset
+
+<!--
+"Many of you were the smartest kids in your high school. You got here and realized everyone else is too. That identity—'I'm smart'—is fragile. If you struggle, you think 'I'm not smart anymore.' Change your identity to 'I'm a hard worker' or 'I'm a learner.' That is anti-fragile."
+-->
 
 ### "I'm not good at this" vs "I'm not good at this *YET*"
 
@@ -375,6 +447,11 @@ image: https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&
 
 # Lesson 4: The Multiplayer Multiplier
 
+<!--
+"Don't network when you need a job. That's asking for a favor. Network when you *don't* need anything. That's building a relationship."
+Challenge: Send 5 LinkedIn connection requests to alumni from this university *today*. Don't ask for a job. Just say, 'I'm a student at UD, I saw you're doing great things at X, and I'd love to follow your journey.'
+-->
+
 ### Focusing only on your GPA is playing Single Player.
 
 <div class="mt-8 grid grid-cols-2 gap-8">
@@ -411,6 +488,11 @@ image: https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&
 ---
 
 # Lesson 5: Learning How to Learn
+
+<!--
+"The framework you learn today will be legacy code in 3 years. Don't marry the tool; marry the problem-solving process."
+"AI is like an Iron Man suit. If you're weak, it'll crush you. If you're strong/skilled, it makes you a superhero. Learn the fundamentals so you can direct the AI."
+-->
 
 ### The only skill that is recession-proof.
 
@@ -559,8 +641,11 @@ background: https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=fo
   <v-click>🛑 No one is coming to save you. Be your own advocate.<br /></v-click>
   <v-click>🛑 Introverts - You're doing this on Hard Mode.<br /></v-click>
   <v-click>🛑 Get Comfortable getting Uncomfortable.<br /></v-click>
-  <v-click>🛑 AI Won't replace you. But a person using AI will.<br /></v-click>
 </div>
+
+<!--
+Use AI as a tutor, not a cheater. Let it explain concepts, generate test cases, or refactor code. But always understand the output.
+-->
 
 ---
 layout: center
@@ -568,6 +653,10 @@ class: text-center
 ---
 
 # System Maintenance
+
+<!--
+"We glorify 'crunch mode' in tech. But if a server runs at 100% CPU for a week, it crashes. Humans are the same. Sleep and downtime are not 'time off,' they are 'system updates'."
+-->
 
 <div class="bg-black/60 backdrop-blur-sm p-8 rounded-xl mt-8 text-white">
 
