@@ -38,12 +38,12 @@ layout: center
 class: text-center
 ---
 
-# Who is talking and why should i care?
+# Who is talking and why should I care?
 
 <v-click>
 
 ### Eric Chang. Technical Enablement Expert @ Barclays.
-UD Alumni. Dad, Husband, Geek.
+UD Alumni. Dad, Husband, Geek. Average College Student.
 
 </v-click>
 <v-click>
@@ -57,24 +57,52 @@ UD Alumni. Dad, Husband, Geek.
 </v-click>
 
 ---
-layout: two-cols
+layout: center
 ---
 
 # Agenda
 
-<div class="mt-12 w-max mx-auto">
-  <v-clicks class="space-y-6 text-2xl text-left list-decimal">
-    <li>This will not last 80 minutes</li>
-    <li>I am interactive. Raise hands and ask questions!</li>
-    <li>How I got here</li>
-    <li>Lessons learned</li>
-  </v-clicks>
-</div>
+<div class="mt-12 grid grid-cols-2 gap-12 items-center">
+  
+  <div class="space-y-4">
+    <v-click>
+      <div class="flex items-center gap-4 p-4 rounded-xl bg-blue-500/10 border border-blue-500/20 hover:bg-blue-500/20 hover:-translate-y-1 transition-all">
+        <div class="text-3xl">⏳</div>
+        <div class="text-lg font-semibold opacity-90">This will not last 80 minutes</div>
+      </div>
+    </v-click>
+    <v-click>
+      <div class="flex items-center gap-4 p-4 rounded-xl bg-green-500/10 border border-green-500/20 hover:bg-green-500/20 hover:-translate-y-1 transition-all">
+        <div class="text-3xl">🙋‍♂️</div>
+        <div class="text-lg font-semibold opacity-90">I am interactive. Ask questions!</div>
+      </div>
+    </v-click>
+    <v-click>
+      <div class="flex items-center gap-4 p-4 rounded-xl bg-purple-500/10 border border-purple-500/20 hover:bg-purple-500/20 hover:-translate-y-1 transition-all">
+        <div class="text-3xl">🗺️</div>
+        <div class="text-lg font-semibold opacity-90">How I got here</div>
+      </div>
+    </v-click>
+    <v-click>
+      <div class="flex items-center gap-4 p-4 rounded-xl bg-yellow-500/10 border border-yellow-500/20 hover:bg-yellow-500/20 hover:-translate-y-1 transition-all">
+        <div class="text-3xl">💡</div>
+        <div class="text-lg font-semibold opacity-90">Lessons learned</div>
+      </div>
+    </v-click>
+  </div>
 
-::right::
+  <div class="flex flex-col items-center justify-center">
+    <div class="relative group mt-4">
+      <div class="absolute -inset-1 bg-gradient-to-r from-teal-500 to-blue-500 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+      <div class="relative w-40 h-40 p-3 bg-white rounded-xl shadow-2xl flex items-center justify-center transform hover:scale-105 transition-all">
+        <PrivatePhoto src="/private/qr_code.jpg" />
+      </div>
+      <div class="absolute -bottom-8 left-0 right-0 text-center text-sm font-bold opacity-60 uppercase tracking-widest text-teal-400">
+        Follow Along
+      </div>
+    </div>
+  </div>
 
-<div class="flex flex-col items-center justify-center h-full">
-  <PrivatePhoto src="/private/qr_code.jpg" />
 </div>
 
 ---
@@ -351,7 +379,7 @@ class: text-center
 
 <div class="mt-8 grid grid-cols-1 justify-center">
   <div v-click class="text-xl opacity-80">
-    The syllabus ends. The test doesn't.
+    The syllabus ends. The learning doesn't.
   </div>
 </div>
 
@@ -399,9 +427,9 @@ class: text-center
 
 <div class="mt-12 text-center">
   <p class="text-xl font-light italic">
-    "The passion for stretching yourself and sticking to it, even (or especially) when it’s not going well, is the hallmark of the growth mindset."
+ Everybody sucks at everything when they first try.
   </p>
-  <p class="text-sm opacity-50 mt-2">— Carol Dweck</p>
+  <p class="text-sm opacity-50 mt-2">— Eric Chang (Probably)</p>
 </div>
 
 </v-click>
@@ -512,11 +540,11 @@ Challenge: Send 5 LinkedIn connection requests to alumni from this university *t
 <v-click>
 
 <div class="mt-12 p-6 bg-gray-100 dark:bg-gray-800 rounded-xl border-l-4 border-purple-500 text-center">
-  <h2 class="text-2xl font-bold mb-4">The Catalyst</h2>
+  <h2 class="text-2xl font-bold mb-4">The Unfair Advantage</h2>
   <p class="text-lg italic opacity-80">
-    You know your networking is paying off when the jobs come to you.
+    A strong squad turns hard mode into easy mode. Opportunities find you when you are visible to the right players.
   </p>
-  <p class="mt-4 text-sm font-bold uppercase tracking-widest text-purple-400">Networking is Access.</p>
+  <p class="mt-4 text-sm font-bold uppercase tracking-widest text-purple-400">Building a strong team IS Networking - your reputation builds opportunities.</p>
 </div>
 
 </v-click>
@@ -550,6 +578,7 @@ Challenge: Send 5 LinkedIn connection requests to alumni from this university *t
   <div class="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
     <h3 class="font-bold mb-2">The Syntax Changes</h3>
     <ul class="list-disc pl-4 text-sm opacity-75 space-y-1">
+    <li>Don't get to attached to the tools you use.</li>
       <li>C -> C++ -> Java</li>
       <li>JavaScript ->jQuery -> React</li>
       <li>Servers -> Containers -> Cloud</li>
@@ -566,6 +595,8 @@ Challenge: Send 5 LinkedIn connection requests to alumni from this university *t
       <li>Stop Watching and Start Doing</li>
       <li>Consistency > Intensity</li>
       <li>Build Muscle Memory</li>
+      <li>Don't try to boil the ocean</li>
+      <li>Intentional Practice is key</li>
     </ul>
   </div>
 
@@ -615,9 +646,9 @@ Challenge: Send 5 LinkedIn connection requests to alumni from this university *t
 
 <div class="mt-12 text-center max-w-2xl mx-auto">
   <p class="text-xl font-light italic">
-    "You are the average of the five people you spend the most time with."
+    "Always be the worst guy in every band you're in. If you're the best guy there, you need to be in a different band."
   </p>
-  <p class="text-sm opacity-50 mt-2">— Jim Rohn</p>
+  <p class="text-sm opacity-50 mt-2">— Pat Metheny</p>
 </div>
 
 </v-click>
@@ -823,7 +854,7 @@ class: text-center
     </div>
     <div class="opacity-90 text-xs leading-tight">
       <span class="font-bold text-red-500/80">Ticks:</span> Identify your "filler" words (um, like, right). Power of the Pause—silence is better than a verbal tick and projects confidence.<br>
-      <span class="font-bold text-red-500/80">Practice:</span> You perform like you practice. Get feedback from peers you trust.
+      <span class="font-bold text-red-500/80">Practice:</span> You perform like you practice. Get feedback from peers you trust. Don't just read the slides.
     </div>
   </div>
   </v-click>
@@ -847,9 +878,35 @@ class: text-center
 
 # Q&A
 
-### Office Hours are Open.
+<h3 class="opacity-80">Office Hours are Open.</h3>
 
-<div class="mt-8 flex gap-4 justify-center">
-  <div class="opacity-50">linkedin.com/in/echang15</div>
-  <div class="opacity-50">Uninstall Your Socials - seriously!</div>
+<div class="mt-16 flex items-center justify-center gap-16">
+  
+  <div class="relative group">
+    <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+    <div class="relative w-48 h-48 p-4 bg-white rounded-xl shadow-2xl flex items-center justify-center transform hover:scale-105 transition-all">
+      <PrivatePhoto src="/private/qr_linkedin.jpg" />
+    </div>
+    <div class="absolute -bottom-8 left-0 right-0 text-center text-sm font-bold opacity-50 uppercase tracking-widest">
+      Scan to Connect
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-6 text-left w-96">
+          <div class="flex items-center gap-4 p-4 rounded-xl bg-blue-500/10 border border-blue-500/20 hover:-translate-y-1 transition-all">
+      <div class="text-4xl"><carbon:logo-linkedin class="text-4xl text-blue-500" /></div>
+      <div>
+        <div class="font-bold text-lg text-red-400"></div>
+        <div class="text-sm opacity-75">linkedin.com/in/echang15</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-4 p-4 rounded-xl bg-red-500/10 border border-red-500/20 hover:-translate-y-1 transition-all">
+      <div class="text-4xl">📵</div>
+      <div>
+        <div class="font-bold text-lg text-red-400">Pro Tip</div>
+        <div class="text-sm opacity-75">Uninstall your socials - seriously!</div>
+      </div>
+    </div>
+  </div>
+
 </div>
