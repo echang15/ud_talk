@@ -754,6 +754,90 @@ class: text-center
 </div>
 
 ---
+
+# The Art of the Presentation - Bonus Material
+
+<div class="space-y-3 mt-6 text-sm">
+  <v-click>
+  <div class="flex items-center gap-4 p-3 border-l-4 border-blue-500 bg-blue-500/10 rounded-r">
+    <div class="w-32 flex-shrink-0">
+      <div class="font-bold text-lg text-blue-500">Context</div>
+      <div class="text-[10px] opacity-75 uppercase tracking-wide">Problem Statement</div>
+    </div>
+    <div class="opacity-90 leading-tight">
+      Don't assume they remember why you're there. Define the "pain" or "opportunity" in one sentence. If there is no clear problem, there is no reason for the meeting.
+    </div>
+  </div>
+  </v-click>
+  
+  <v-click>
+  <div class="flex items-center gap-4 p-3 border-l-4 border-purple-500 bg-purple-500/10 rounded-r">
+    <div class="w-32 flex-shrink-0">
+      <div class="font-bold text-lg text-purple-500">Outcome</div>
+      <div class="text-[10px] opacity-75 uppercase tracking-wide">The Three I's</div>
+    </div>
+    <div class="opacity-90 leading-tight">
+      Choose one primary goal: Inspire (vision), Influence (buy-in/decisions), or Inform (status updates). Be explicit about what you want them to do after the last slide.
+    </div>
+  </div>
+  </v-click>
+
+  <v-click>
+  <div class="flex items-center gap-4 p-3 border-l-4 border-green-500 bg-green-500/10 rounded-r">
+    <div class="w-32 flex-shrink-0">
+      <div class="font-bold text-lg text-green-500">Audience</div>
+      <div class="text-[10px] opacity-75 uppercase tracking-wide">Empathy & Prep</div>
+    </div>
+    <div class="opacity-90 text-xs leading-tight">
+      <span class="font-bold text-green-500/80">Who:</span> Are they technical or business-focused? What do they care about?
+      <span class="font-bold text-green-500/80 ml-2">Knowledge:</span> Meet them where they are; avoid jargon.<br>
+      <span class="font-bold text-green-500/80">Preference:</span> Do they like to interrupt with questions or wait until the end?
+    </div>
+  </div>
+  </v-click>
+
+  <v-click>
+  <div class="flex items-center gap-4 p-3 border-l-4 border-yellow-500 bg-yellow-500/10 rounded-r">
+    <div class="w-32 flex-shrink-0">
+      <div class="font-bold text-lg text-yellow-500">Medium</div>
+      <div class="text-[10px] opacity-75 uppercase tracking-wide">Environment</div>
+    </div>
+    <div class="opacity-90 text-xs leading-tight">
+      <span class="font-bold text-yellow-500/80">Virtual:</span> Look at the camera lens, not the screen, to simulate eye contact.<br>
+      <span class="font-bold text-yellow-500/80">In-Person:</span> Use the room; move away from the podium to build trust.
+    </div>
+  </div>
+  </v-click>
+
+  <v-click>
+  <div class="flex items-center gap-4 p-3 border-l-4 border-red-500 bg-red-500/10 rounded-r">
+    <div class="w-32 flex-shrink-0">
+      <div class="font-bold text-lg text-red-500">Delivery</div>
+      <div class="text-[10px] opacity-75 uppercase tracking-wide">Ticks & Practice</div>
+    </div>
+    <div class="opacity-90 text-xs leading-tight">
+      <span class="font-bold text-red-500/80">Ticks:</span> Identify your "filler" words (um, like, right). Power of the Pause—silence is better than a verbal tick and projects confidence.<br>
+      <span class="font-bold text-red-500/80">Practice:</span> You perform like you practice. Get feedback from peers you trust.
+    </div>
+  </div>
+  </v-click>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# A presentation about nothing...
+
+<div class="mt-8 flex justify-center w-full">
+  <video controls class="rounded-xl shadow-2xl border border-gray-700/50 w-full max-w-4xl">
+    <source src="/private/ted_talk.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+---
 layout: center
 class: text-center
 ---
