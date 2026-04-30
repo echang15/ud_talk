@@ -205,7 +205,7 @@ layout: two-cols
     <ul class="list-disc pl-4 text-sm opacity-80">
       <li>First "Real" Job</li>
       <li>Learned the value of a dollar</li>
-      <li>Tranformed entire IT Infrastructure.</li>
+      <li>Transformed entire IT Infrastructure.</li>
       <li>Learned a little about everything</li>
     </ul>
   </div>
@@ -707,7 +707,8 @@ background: https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=fo
   <v-click>🛑 No one cares about your grades. Skills get you the job. <br /></v-click>
   <v-click>🛑 No one is coming to save you. Be your own advocate.<br /></v-click>
   <v-click>🛑 Introverts - You're doing this on Hard Mode.<br /></v-click>
-  <v-click>🛑 Get Comfortable getting Uncomfortable.<br /></v-click>
+  <v-click>🛑 Get Comfortable getting Uncomfortable. (Professionally)<br /></v-click>
+  <v-click>🛑 The climb up the "Mountain" is never a straight line.<br /></v-click>
 </div>
 
 <!--
@@ -869,6 +870,17 @@ class: text-center
 
 <div class="mt-8 flex justify-center w-full max-w-4xl mx-auto h-[450px]">
   <PrivateVideo src="/private/ted_talk.mp4" />
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# On being the Dumbest one in the room...
+
+<div class="mt-8 flex justify-center w-full max-w-4xl mx-auto h-[450px]">
+  <PrivateVideo src="/private/simon_sinek.mp4" />
 </div>
 
 ---
