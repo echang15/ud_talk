@@ -57,7 +57,7 @@ UD Alumni. Dad, Husband, Geek.
 </v-click>
 
 ---
-layout: center
+layout: two-cols
 ---
 
 # Agenda
@@ -69,6 +69,13 @@ layout: center
     <li>How I got here</li>
     <li>Lessons learned</li>
   </v-clicks>
+</div>
+
+::right::
+
+<div class="flex flex-col items-center justify-center h-full">
+  <img src="/private/qr_code.jpg" class="w-64 h-64 rounded-xl shadow-lg object-cover" alt="QR Code" />
+  <p class="mt-6 text-xl font-semibold opacity-80">follow along here</p>
 </div>
 
 ---
@@ -830,11 +837,8 @@ class: text-center
 
 # A presentation about nothing...
 
-<div class="mt-8 flex justify-center w-full">
-  <video controls class="rounded-xl shadow-2xl border border-gray-700/50 w-full max-w-4xl">
-    <source src="/private/ted_talk.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<div class="mt-8 flex justify-center w-full max-w-4xl mx-auto h-[450px]">
+  <PrivateVideo src="/private/ted_talk.mp4" />
 </div>
 
 ---
