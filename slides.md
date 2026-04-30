@@ -74,8 +74,7 @@ layout: two-cols
 ::right::
 
 <div class="flex flex-col items-center justify-center h-full">
-  <img src="/private/qr_code.jpg" class="w-64 h-64 rounded-xl shadow-lg object-cover" alt="QR Code" />
-  <p class="mt-6 text-xl font-semibold opacity-80">follow along here</p>
+  <PrivatePhoto src="/private/qr_code.jpg" />
 </div>
 
 ---
