@@ -760,6 +760,246 @@ class: text-center
 </div>
 
 ---
+layout: image-right
+image: /learn_library.jpg
+---
+
+# How to Learn Anything
+
+### Inspired by *The First 20 Hours* — Josh Kaufman
+
+<!--
+"Everyone has heard of the 10,000 hour rule. It comes from research on elite performers - chess masters, concert violinists. Kaufman's point: that's the wrong question. You don't need to be world class. You need to be good enough to enjoy it and be useful. That takes about 20 hours."
+-->
+
+<v-click>
+
+<div class="mt-8 p-6 border-l-4 border-blue-500 bg-blue-500/10">
+  <p class="text-lg opacity-90">
+    <b>10,000 hours</b> to become a world-class expert.<br>
+    <b>20 hours</b> to go from "I know nothing" to "I'm actually pretty good."
+  </p>
+</div>
+
+</v-click>
+
+<v-click>
+
+<p class="mt-6 text-sm opacity-70">
+  The real barrier isn't intellectual. It's emotional - the fear of feeling stupid.
+</p>
+
+</v-click>
+
+---
+
+# The Learning Curve
+
+<!--
+"The first hours of any new skill give you the biggest jump. Going from 0 to 'competent' is steep. Going from 'good' to 'elite' is a long, flat grind. Most people quit in the dip at the start because it feels awful. Push past it for 20 hours and you're on the other side."
+-->
+
+<div class="grid grid-cols-2 gap-8 mt-2 items-center">
+
+<v-click>
+
+<img src="/learning_curve.png" class="w-full rounded-lg" />
+
+</v-click>
+
+<div class="space-y-4">
+
+<v-click>
+
+<div class="p-4 bg-green-500/10 border-l-4 border-green-500">
+  <h3 class="font-bold">Steep at the start</h3>
+  <p class="text-sm opacity-80">Biggest gains come in the first few hours.</p>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-4 bg-red-500/10 border-l-4 border-red-500">
+  <h3 class="font-bold">The Frustration Barrier</h3>
+  <p class="text-sm opacity-80">Feeling dumb is the price of admission. Most people quit here.</p>
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+---
+
+# The 4 Steps to Rapid Skill Acquisition
+
+<!--
+"This is the whole framework. Four steps. Deconstruct it, learn just enough to catch your own mistakes, remove whatever is stopping you from practicing, then put in the 20 hours."
+-->
+
+<div class="grid grid-cols-4 gap-4 mt-12 text-center">
+
+<v-click>
+  <div class="p-4 bg-blue-500/10 rounded-xl">
+    <div class="text-4xl mb-3">🧩</div>
+    <h3 class="text-lg font-bold">1. Deconstruct</h3>
+    <p class="text-sm opacity-75">Break the skill into the smallest sub-skills. Practice the most important ones first.</p>
+  </div>
+</v-click>
+
+<v-click>
+  <div class="p-4 bg-purple-500/10 rounded-xl">
+    <div class="text-4xl mb-3">📚</div>
+    <h3 class="text-lg font-bold">2. Learn Enough</h3>
+    <p class="text-sm opacity-75">Use 3-5 resources to self-correct. Learn to practice, not to procrastinate.</p>
+  </div>
+</v-click>
+
+<v-click>
+  <div class="p-4 bg-orange-500/10 rounded-xl">
+    <div class="text-4xl mb-3">🚧</div>
+    <h3 class="text-lg font-bold">3. Remove Barriers</h3>
+    <p class="text-sm opacity-75">Kill distractions. Make practice the easy default.</p>
+  </div>
+</v-click>
+
+<v-click>
+  <div class="p-4 bg-green-500/10 rounded-xl">
+    <div class="text-4xl mb-3">⏱️</div>
+    <h3 class="text-lg font-bold">4. Practice 20 Hours</h3>
+    <p class="text-sm opacity-75">Pre-commit to the full time. Push through the frustration.</p>
+  </div>
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="mt-10 text-center text-lg font-light italic">
+  20 hours = 45 minutes a day for about a month.
+</div>
+
+</v-click>
+
+---
+
+# The 10 Principles of Rapid Skill Acquisition
+
+<!--
+"You don't need to memorize all ten. Pick two and apply them this week. Notice that 'choose a lovable project' is first - if you don't care about it, you won't survive the frustration barrier."
+-->
+
+<div class="grid grid-cols-2 gap-x-8 gap-y-2 mt-6 text-base">
+
+<v-clicks>
+
+- 🎯 **Choose a lovable project**
+- 1️⃣ **Focus on one skill at a time**
+- 🏁 **Define your target performance level**
+- 🧩 **Deconstruct the skill into sub-skills**
+- 🛠️ **Obtain critical tools**
+- 🚧 **Eliminate barriers to practice**
+- 📅 **Schedule dedicated practice time**
+- 🔄 **Create fast feedback loops**
+- ⏲️ **Practice in short bursts, by the clock**
+- 🚀 **Emphasize quantity and speed**
+
+</v-clicks>
+
+</div>
+
+---
+
+# Learning Hacks That Actually Work
+
+<!--
+"A few of Kaufman's 10 principles of effective learning. The one I use most: jump in over your head and talk to practitioners. Ten minutes with someone who's done it beats ten hours of reading."
+-->
+
+<div class="grid grid-cols-3 gap-4 mt-8">
+
+<v-click>
+  <div class="p-4 bg-blue-500/10 rounded-xl">
+    <div class="text-3xl mb-2">🏊</div>
+    <h3 class="font-bold">Jump in Over Your Head</h3>
+    <p class="text-sm opacity-75">Start with the real thing, not another tutorial.</p>
+  </div>
+</v-click>
+
+<v-click>
+  <div class="p-4 bg-purple-500/10 rounded-xl">
+    <div class="text-3xl mb-2">🗣️</div>
+    <h3 class="font-bold">Talk to Practitioners</h3>
+    <p class="text-sm opacity-75">Ask people who've done it what actually matters.</p>
+  </div>
+</v-click>
+
+<v-click>
+  <div class="p-4 bg-orange-500/10 rounded-xl">
+    <div class="text-3xl mb-2">🔕</div>
+    <h3 class="font-bold">Eliminate Distractions</h3>
+    <p class="text-sm opacity-75">Phone away. One task. Protect the 45 minutes.</p>
+  </div>
+</v-click>
+
+<v-click>
+  <div class="p-4 bg-green-500/10 rounded-xl">
+    <div class="text-3xl mb-2">🔮</div>
+    <h3 class="font-bold">Make & Test Predictions</h3>
+    <p class="text-sm opacity-75">Guess what will happen, then check. Fast feedback.</p>
+  </div>
+</v-click>
+
+<v-click>
+  <div class="p-4 bg-yellow-500/10 rounded-xl">
+    <div class="text-3xl mb-2">📝</div>
+    <h3 class="font-bold">Use Checklists & Spaced Repetition</h3>
+    <p class="text-sm opacity-75">Offload memory. Review right before you'd forget.</p>
+  </div>
+</v-click>
+
+<v-click>
+  <div class="p-4 bg-red-500/10 rounded-xl">
+    <div class="text-3xl mb-2">😴</div>
+    <h3 class="font-bold">Honor Your Biology</h3>
+    <p class="text-sm opacity-75">Sleep, food, and breaks lock in what you learned.</p>
+  </div>
+</v-click>
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Your Challenge
+
+<!--
+"Pick something you've been putting off. Define what 'good enough' looks like. Block 45 minutes a day. Come find me in a month and tell me how it went."
+-->
+
+<v-click>
+
+<div class="mt-8 text-2xl font-light">
+  Pick one skill. Set a target. Block <b>45 minutes a day</b>.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-green-500">
+  In a month, you won't be a beginner anymore.
+</div>
+
+</v-click>
+
+---
+
+---
 
 # 3 Things to Put in Your Backpack
 
