@@ -799,22 +799,11 @@ image: https://images.unsplash.com/photo-1456513080510-7bf3a84b82f1?auto=format&
 "The first hours of any new skill give you the biggest jump. Going from 0 to 'competent' is steep. Going from 'good' to 'elite' is a long, flat grind. Most people quit in the dip at the start because it feels awful. Push past it for 20 hours and you're on the other side."
 -->
 
-<div class="grid grid-cols-2 gap-8 mt-6 items-center">
+<div class="grid grid-cols-2 gap-8 mt-2 items-center">
 
 <v-click>
 
-<svg viewBox="0 0 400 260" class="w-full">
-  <line x1="40" y1="220" x2="380" y2="220" stroke="currentColor" stroke-opacity="0.5" stroke-width="2"/>
-  <line x1="40" y1="220" x2="40" y2="20" stroke="currentColor" stroke-opacity="0.5" stroke-width="2"/>
-  <path d="M40 215 C 70 120, 110 70, 160 55 S 300 35, 370 28" fill="none" stroke="#3b82f6" stroke-width="4"/>
-  <rect x="40" y="20" width="60" height="200" fill="#22c55e" fill-opacity="0.15"/>
-  <line x1="100" y1="20" x2="100" y2="220" stroke="#22c55e" stroke-width="2" stroke-dasharray="6 4"/>
-  <text x="70" y="240" fill="currentColor" font-size="13" text-anchor="middle">20 hrs</text>
-  <text x="210" y="240" fill="currentColor" font-size="13" text-anchor="middle">Time practiced →</text>
-  <text x="14" y="130" fill="currentColor" font-size="13" transform="rotate(-90 14 130)" text-anchor="middle">Skill →</text>
-  <text x="108" y="100" fill="#22c55e" font-size="14" font-weight="bold">Good enough!</text>
-  <text x="260" y="75" fill="currentColor" font-size="12" opacity="0.6">Diminishing returns...</text>
-</svg>
+<img src="/learning_curve.png" class="w-full rounded-lg" />
 
 </v-click>
 
